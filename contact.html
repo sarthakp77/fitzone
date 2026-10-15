@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | FitZone</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar"><div class="container nav-inner">
+<a href="index.html" class="logo">Fit<span>Zone</span></a>
+<button class="hamburger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+<ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="workouts.html">Workouts</a></li><li><a href="nutrition.html">Nutrition</a></li><li><a href="plans.html">Plans</a></li><li><a href="contact.html" class=active aria-current=page>Contact</a></li><li><button class="theme-btn" type="button">☀️ Light</button></li></ul>
+</div></header>
+<section class="page-head"><div class="container"><h1>GET IN TOUCH</h1><p class="lead" style="margin:14px auto 0">Questions or feedback? Send us a message.</p></div></section><section class="section"><div class="container"><div class="box card"><form id="contactForm" novalidate>
+<div class="field"><label for="name">Full Name</label><input id="name" type="text" autocomplete="name"><span class="error"></span></div>
+<div class="field"><label for="email">Email</label><input id="email" type="email" autocomplete="email"><span class="error"></span></div>
+<div class="field"><label for="phone">Phone (optional)</label><input id="phone" type="tel"></div>
+<div class="field"><label for="subject">Subject</label><input id="subject" type="text"></div>
+<div class="field"><label for="message">Message</label><textarea id="message" rows="5"></textarea><span class="error"></span></div>
+<button class="btn" type="submit">Send Message</button>
+<div class="success" id="success" role="status">Thank you! Your message has been submitted successfully.</div></form></div></div></section>
+<section class="section" style="padding-top:0"><div class="container"><div class="center"><h2>Frequently Asked Questions</h2></div><div class="faq"><div class="faq-item"><button class="faq-q" aria-expanded="false">Is FitZone free?</button><div class="faq-a"><p>Yes. All workouts, plans and nutrition tips on this site are free to use.</p></div></div><div class="faq-item"><button class="faq-q" aria-expanded="false">How often should I exercise?</button><div class="faq-a"><p>Most adults do well with 3 to 5 sessions a week, plus rest days for recovery.</p></div></div><div class="faq-item"><button class="faq-q" aria-expanded="false">Are these workouts suitable for beginners?</button><div class="faq-a"><p>Yes. Every workout shows a difficulty level, and the Beginner Plan is a good starting point.</p></div></div><div class="faq-item"><button class="faq-q" aria-expanded="false">Can I follow these workouts at home?</button><div class="faq-a"><p>Many of them need little or no equipment. Start with Full Body Beginner or Morning Stretch.</p></div></div></div></div></section>
+<footer><div class="container">© 2026 FitZone. Simple workouts. Healthy habits. Better results.</div></footer>
+<script src="script.js"></script>
+</body>
+</html>

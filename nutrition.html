@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nutrition | FitZone</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar"><div class="container nav-inner">
+<a href="index.html" class="logo">Fit<span>Zone</span></a>
+<button class="hamburger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+<ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="workouts.html">Workouts</a></li><li><a href="nutrition.html" class=active aria-current=page>Nutrition</a></li><li><a href="plans.html">Plans</a></li><li><a href="contact.html">Contact</a></li><li><button class="theme-btn" type="button">☀️ Light</button></li></ul>
+</div></header>
+<section class="page-head"><div class="container"><h1>NUTRITION &amp; HEALTH</h1><p class="lead" style="margin:14px auto 0">Fuel your body with better food choices.</p></div></section><section class="section"><div class="container"><div class="grid g4"><div class="card reveal"><span class="icon">🥗</span><h3>Balanced Diet</h3><p>Mix proteins, carbs, healthy fats and vegetables at every meal.</p></div><div class="card reveal"><span class="icon">💧</span><h3>Stay Hydrated</h3><p>Aim for steady water intake through the day, more when you train.</p></div><div class="card reveal"><span class="icon">🍎</span><h3>Healthy Snacks</h3><p>Choose fruit, nuts or yogurt over sugary packaged snacks.</p></div><div class="card reveal"><span class="icon">🥩</span><h3>Protein-Rich Foods</h3><p>Protein helps your muscles recover and grow after exercise.</p></div></div></div></section>
+<section class="section" style="padding-top:0"><div class="container"><div class="center reveal"><h2>Healthy Food Choices</h2></div><br><div class="grid g3"><div class="card reveal center"><span class="icon">🥚</span><h3>Eggs</h3><p>Complete protein with vitamins B12 and D.</p></div><div class="card reveal center"><span class="icon">🥣</span><h3>Oats</h3><p>Slow-release carbs and fibre for lasting energy.</p></div><div class="card reveal center"><span class="icon">🍌</span><h3>Banana</h3><p>Quick energy and potassium before or after training.</p></div><div class="card reveal center"><span class="icon">🍗</span><h3>Chicken</h3><p>Lean protein for muscle repair.</p></div><div class="card reveal center"><span class="icon">🍚</span><h3>Rice</h3><p>Easy carbs to refuel after a workout.</p></div><div class="card reveal center"><span class="icon">🥦</span><h3>Vegetables</h3><p>Vitamins, minerals and fibre for overall health.</p></div></div></div></section>
+<section class="section" style="padding-top:0"><div class="container"><div class="box card reveal"><h2 class="center">BMI Calculator</h2><br>
+<form id="bmiForm" novalidate><div class="field"><label for="height">Height (cm)</label><input id="height" type="number" min="50" placeholder="e.g. 170"></div>
+<div class="field"><label for="weight">Weight (kg)</label><input id="weight" type="number" min="10" placeholder="e.g. 65"></div>
+<button class="btn" type="submit">Calculate BMI</button></form><div class="result" id="bmiResult" aria-live="polite"></div>
+<p class="note">This calculator is for general information only and is not medical advice.</p></div></div></section>
+<footer><div class="container">© 2026 FitZone. Simple workouts. Healthy habits. Better results.</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
